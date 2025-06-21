@@ -9,7 +9,7 @@ The script extracts spatial and flood depth information, transforms coordinates 
 ## ⚙️ Installation
 
 This project requires Python **3.10+**. It's recommended to use a **Conda environment**. [Rasterio](https://rasterio.readthedocs.io/en/stable/) is a Pythonic wrapper around [GDAL](https://gdal.org/en/stable/), which 
-Simplifies reading raster files and accessing geospatial metadata. [pyproj](https://pyproj4.github.io/pyproj/stable/index.html) provides a Python interface to the PROJ library for coordinate reference system (CRS) transformations.
+simplifies reading raster files and accessing geospatial metadata. [pyproj](https://pyproj4.github.io/pyproj/stable/index.html) provides a Python interface to the PROJ library for coordinate reference system (CRS) transformations.
 
 ```bash
 conda create -n tiff-env python=3.10
